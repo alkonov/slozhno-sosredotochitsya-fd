@@ -309,8 +309,9 @@
 }
 
 .gallery__content-section {
-  display: grid;
+  display: block;
   grid-template-rows: 1fr 1fr;
+  margin-block-end: 60px;
 }
 
 .gallery__content {
@@ -346,11 +347,6 @@
 .gallery__image:nth-child(5) {
   grid-column: 2/4;
   grid-row: 3/4;
-}
-
-.gallery__content-section {
-  display: block;
-  margin-block-end: 60px;
 }
 
 .gallery__content-section .content-card__title {
