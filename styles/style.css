@@ -21,7 +21,7 @@
   position: absolute;
   top: 10px;
   right: 19px;
-  display: flex;
+  display: var(--rec-display);
   min-height: 27px;
   justify-content: center;
   align-items: center;
@@ -95,7 +95,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--border-color);
+  outline: 1px solid var(--hover-accent-color);
 }
 
 .header__theme-menu-button:focus {
@@ -231,6 +231,10 @@
   margin-block-start: 40px;
 }
 
+.footer .title__shadow {
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
 @media (width >= 768px) {
 :root {
   --font-size-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -355,10 +359,6 @@
 
 .footer {
   min-block-size: 1024px;
-}
-
-.footer .title__shadow {
-  text-shadow: 2px 2px 0 var(--accent-color);
 }
 }
 

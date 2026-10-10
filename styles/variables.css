@@ -24,4 +24,5 @@
   --font-bold: 700;
   --line-height: 23.4px;
   --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --rec-display: flex;
 }

@@ -24,6 +24,7 @@
   --corners-color: var(--question-color);
   --link-shadow: var(--title-shadow);
   --rec-color: var(--title-shadow);
+  --rec-display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -43,9 +44,6 @@
   --corners-color: var(--question-color);
   --link-shadow: var(--title-shadow);
   --rec-color: var(--title-shadow);
+  --rec-display: none;
   }
-}
-
-  :root.theme-light .header__record {
-  display: none;
 }

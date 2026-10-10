@@ -20,4 +20,5 @@
   --corners-color: var(--question-color);
   --link-shadow: var(--title-shadow);
   --rec-color: var(--title-shadow);
+  --rec-display: flex;
 }
